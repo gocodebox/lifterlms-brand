@@ -1,1 +1,2 @@
-# lifterlms-brand
+LifterLMS Brand
+===============

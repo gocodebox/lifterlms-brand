@@ -1,0 +1,14 @@
+{
+  "name": "lifterlms-brand",
+  "version": "1.0.0",
+  "description": "LifterLMS Brand Guide",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gocodebox/lifterlms-brand.git"
+  },
+  "author": "Team LifterLMS <team@lifterlms.com>",
+  "bugs": {
+    "url": "https://github.com/gocodebox/lifterlms-brand/issues"
+  },
+  "homepage": "https://github.com/gocodebox/lifterlms-brand#readme"
+}
