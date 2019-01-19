@@ -1,0 +1,123 @@
+.box-grid {
+	display: flex;
+	.box {
+		margin-right: 48px;
+	}
+}
+
+.box {
+	border-radius: 4px;
+	max-width: 840px;
+	margin-bottom: 18px;
+	padding: 96px;
+
+	.caption {
+		color: $color-grey;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	&.w-border {
+		border: 1px solid $color-element-border;
+	}
+
+	&.show-gradient-line {
+		border: none;
+		.caption {
+			color: $color-white;
+			position: absolute;
+			&:first-child {
+				bottom: 12px;
+				left: 12px;
+			}
+			&:last-child {
+				top: 12px;
+				right: 12px;
+			}
+		}
+		&:before {
+			border-bottom: 1px solid $color-white;
+			color: $color-white;
+			content: '45 deg';
+			display: block;
+			font-size: 12px;
+			transform: rotate(-45deg);
+			padding-bottom: 4px;
+			text-align: center;
+			top: -8px;
+			margin: 0 auto;
+			width: 255px;
+		}
+	}
+
+	&.medium {
+		max-width: 380px;
+	}
+
+	&.small {
+		padding: 48px;
+		max-width: 260px;
+	}
+
+	&.min-width img {
+		border: 1px dashed $color-grey;
+		border-bottom: none;
+		margin-top: 6px;
+		padding-top: 12px;
+	}
+
+	&.free-space {
+		background: $color-element-bg;
+		padding: 0;
+		img {
+			background: $color-white;
+		}
+		.space {
+			border: 1px dashed $color-grey;
+			position: absolute;
+		}
+	}
+
+	span.status {
+		padding: 6px;
+		position: absolute;
+		font-size: 42px;
+		right: 0;
+		top: 0;
+		&.ok { color: #56b756; }
+		&.bad { color: #d61111; }
+	}
+
+}
+
+.bg-blue,
+.bg-blue-alt,
+.bg-orange,
+.bg-grey,
+.bg-black,
+.bg-gradient {
+	color: $color-white;
+}
+
+.bg-white,
+.bg-grey-light {
+	color: $color-black;
+}
+
+.bg-blue { background: $color-blue; }
+.bg-blue-alt { background: $color-blue-alt; }
+.bg-orange { background: $color-orange; }
+.bg-grey { background: $color-grey; }
+.bg-black { background: $color-black; }
+.bg-grey-light { background: $color-grey-light; }
+.bg-white { background: $color-white; }
+
+.bg-gradient {
+	@include gradient();
+}

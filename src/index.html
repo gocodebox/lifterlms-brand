@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LifterLMS Brand and Style Guide</title>
+
+	{% include '_favicons.html' %}
+
+	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+	<button id="hamburger">☰</button>
+
+	<header class="site-header">
+		<img src="assets/img/lifterlms_logo-white.png" alt="LifterLMS Logo">
+		<h1>Brand and Style Guide</h1>
+		<p>Whether your an affiliate, a developer, or an enthusiast, we aim to make it easy for you to integrate the LifterLMS brand into your project.</p>
+	</header>
+
+	<nav id="sidebar-nav" class="sidebar-nav">
+
+		<div class="sticky-inside">
+
+			<div class="just-nav">
+				{% for group in groups %}
+				<h4>{{ group.title }}</h4>
+				<ul>
+					{% for section in group.sections %}
+					<li><a href="#{{ section.id }}">{{ section.title }}</a></li>
+					{% endfor %}
+				</ul>
+				{% endfor %}
+			</div>
+
+		</div>
+
+	</nav>
+
+	<main>
+
+		{% for group in groups %}
+			{% for section in group.sections %}
+			<section>
+				<h2 id="{{ section.id }}">{{ section.title }} <a href="#{{ section.id }}">#</a></h2>
+				{% include 'sections/' + section.html %}
+			</section>
+			{% endfor %}
+		{% endfor %}
+
+	</main>
+
+	<footer class="site-footer">
+		&copy;2014-2019 LifterLMS
+	</footer>
+
+	<script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>

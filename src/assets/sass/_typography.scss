@@ -1,0 +1,105 @@
+body {
+	font-family: $font-family-body;
+	font-size: 133%;
+	line-height: 1.4;
+	font-weight: 200;
+	@media #{$small-screen} {
+		font-size: 120%;
+	}
+}
+
+a, a:visited {
+	color: $color-blue;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+
+main a,
+main a:visited {
+	border-bottom: 1px solid $color-blue;
+	font-weight: 300;
+	&:hover {
+		border-bottom: 2px solid $color-blue;
+	}
+}
+
+strong, b,
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: 9px;
+}
+
+h1 {
+	font-size: 44px;
+}
+h2 {
+	font-size: 38px;
+}
+h3 {
+	font-size: 32px;
+}
+h4 {
+	font-size: 26px;
+}
+h5 {
+	font-size: 22px;
+}
+h6 {
+	font-size: 18px;
+}
+
+
+
+
+
+
+// code {
+// 	font-family: $font-family-mono;
+// }
+
+// p > code,
+// li > code {
+// 	// interesting:
+// 	// https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust
+// 	font-size: 75%;
+// 	background: #eee;
+// 	padding: 0 2px;
+// 	border-radius: 2px;
+// }
+
+main {
+	p,
+	pre,
+	ol,
+	ul {
+		margin: 0 0 18px 0;
+	}
+	p,
+	li {
+		max-width: 720px;
+	}
+	ul {
+		// list-style: none;
+		padding: 0 0 0 18px;
+		li {
+			text-indent: -12px;
+			// &::before {
+			// 	content: "▪ ";
+			// 	color: $primary;
+			// }
+		}
+	}
+	ol, ul {
+		li {
+			margin: 0 0 6px;
+		}
+	}
+}
+
+
+

@@ -1,0 +1,848 @@
+@charset "UTF-8";
+/**
+ * @license
+ * MyFonts Webfont Build ID 3699830, 2019-01-17T13:24:31-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Nexa Black Italic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/black-italic/
+ * Copyright: Modern and elegant sans serif font.
+ *
+ * Webfont: Nexa Black by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/black/
+ * Copyright: Modern and elegant sans serif font.
+ *
+ * Webfont: Nexa Bold Italic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/bold-italic/
+ * Copyright: Modern and elegant sans serif font.
+ *
+ * Webfont: Nexa Bold by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/bold/
+ * Copyright: Copyright \(c\) 2012 by Svet Simov. All rights reserved.
+ *
+ * Webfont: Nexa Book Italic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/book-italic/
+ * Copyright: Modern and elegant sans serif font.
+ *
+ * Webfont: Nexa Book by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/book/
+ * Copyright: Modern and elegant sans serif font.
+ *
+ * Webfont: Nexa Heavy Italic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/heavy-italic/
+ * Copyright: Modern and elegant sans serif font.
+ *
+ * Webfont: Nexa Heavy by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/heavy/
+ * Copyright: Modern and elegant sans serif font.
+ *
+ * Webfont: Nexa Light Italic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/light-italic/
+ * Copyright: Modern and elegant sans serif font.
+ *
+ * Webfont: Nexa Light by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/light/
+ * Copyright: Modern and elegant sans serif font.
+ *
+ * Webfont: Nexa Regular Italic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/italic/
+ * Copyright: Copyright \(c\) 2012 by Svet Simov. All rights reserved.
+ *
+ * Webfont: Nexa Regular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/regular/
+ * Copyright: Copyright \(c\) 2012 by Svet Simov. All rights reserved.
+ *
+ * Webfont: Nexa Thin Italic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/thin-italic/
+ * Copyright: Copyright \(c\) 2012 by Fontfabric LLC. All rights reserved.
+ *
+ * Webfont: Nexa Thin by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/thin/
+ * Copyright: Copyright \(c\) 2012 by Fontfabric LLC. All rights reserved.
+ *
+ * Webfont: Nexa XBold Italic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/xbold-italic/
+ * Copyright: Modern and elegant sans serif font.
+ *
+ * Webfont: Nexa XBold by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/xbold/
+ * Copyright: Modern and elegant sans serif font.
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3699830
+ * Licensed pageviews: 100,000
+ *
+ * © 2019 MyFonts Inc
+*/
+@import url("http://hello.myfonts.net/count/387476");
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/387476_D_0.eot");
+  src: url("../fonts/387476_D_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_D_0.woff2") format("woff2"), url("../fonts/387476_D_0.woff") format("woff"), url("../fonts/387476_D_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/387476_C_0.eot");
+  src: url("../fonts/387476_C_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_C_0.woff2") format("woff2"), url("../fonts/387476_C_0.woff") format("woff"), url("../fonts/387476_C_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/387476_9_0.eot");
+  src: url("../fonts/387476_9_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_9_0.woff2") format("woff2"), url("../fonts/387476_9_0.woff") format("woff"), url("../fonts/387476_9_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 200;
+  src: url("../fonts/387476_8_0.eot");
+  src: url("../fonts/387476_8_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_8_0.woff2") format("woff2"), url("../fonts/387476_8_0.woff") format("woff"), url("../fonts/387476_8_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/387476_5_0.eot");
+  src: url("../fonts/387476_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_5_0.woff2") format("woff2"), url("../fonts/387476_5_0.woff") format("woff"), url("../fonts/387476_5_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/387476_4_0.eot");
+  src: url("../fonts/387476_4_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_4_0.woff2") format("woff2"), url("../fonts/387476_4_0.woff") format("woff"), url("../fonts/387476_4_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/387476_B_0.eot");
+  src: url("../fonts/387476_B_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_B_0.woff2") format("woff2"), url("../fonts/387476_B_0.woff") format("woff"), url("../fonts/387476_B_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/387476_A_0.eot");
+  src: url("../fonts/387476_A_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_A_0.woff2") format("woff2"), url("../fonts/387476_A_0.woff") format("woff"), url("../fonts/387476_A_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/387476_3_0.eot");
+  src: url("../fonts/387476_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_3_0.woff2") format("woff2"), url("../fonts/387476_3_0.woff") format("woff"), url("../fonts/387476_3_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/387476_2_0.eot");
+  src: url("../fonts/387476_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_2_0.woff2") format("woff2"), url("../fonts/387476_2_0.woff") format("woff"), url("../fonts/387476_2_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/387476_E_0.eot");
+  src: url("../fonts/387476_E_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_E_0.woff2") format("woff2"), url("../fonts/387476_E_0.woff") format("woff"), url("../fonts/387476_E_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/387476_F_0.eot");
+  src: url("../fonts/387476_F_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_F_0.woff2") format("woff2"), url("../fonts/387476_F_0.woff") format("woff"), url("../fonts/387476_F_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/387476_7_0.eot");
+  src: url("../fonts/387476_7_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_7_0.woff2") format("woff2"), url("../fonts/387476_7_0.woff") format("woff"), url("../fonts/387476_7_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/387476_6_0.eot");
+  src: url("../fonts/387476_6_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_6_0.woff2") format("woff2"), url("../fonts/387476_6_0.woff") format("woff"), url("../fonts/387476_6_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/387476_1_0.eot");
+  src: url("../fonts/387476_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_1_0.woff2") format("woff2"), url("../fonts/387476_1_0.woff") format("woff"), url("../fonts/387476_1_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/387476_0_0.eot");
+  src: url("../fonts/387476_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/387476_0_0.woff2") format("woff2"), url("../fonts/387476_0_0.woff") format("woff"), url("../fonts/387476_0_0.ttf") format("truetype"); }
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+body {
+  font-family: "Nexa", sans-serif;
+  font-size: 133%;
+  line-height: 1.4;
+  font-weight: 200; }
+  @media (max-width: 700px) {
+    body {
+      font-size: 120%; } }
+
+a, a:visited {
+  color: #466dd8;
+  text-decoration: none;
+  transition: all 0.2s ease; }
+
+main a,
+main a:visited {
+  border-bottom: 1px solid #466dd8;
+  font-weight: 300; }
+  main a:hover,
+  main a:visited:hover {
+    border-bottom: 2px solid #466dd8; }
+
+strong, b,
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 9px; }
+
+h1 {
+  font-size: 44px; }
+
+h2 {
+  font-size: 38px; }
+
+h3 {
+  font-size: 32px; }
+
+h4 {
+  font-size: 26px; }
+
+h5 {
+  font-size: 22px; }
+
+h6 {
+  font-size: 18px; }
+
+main p,
+main pre,
+main ol,
+main ul {
+  margin: 0 0 18px 0; }
+
+main p,
+main li {
+  max-width: 720px; }
+
+main ul {
+  padding: 0 0 0 18px; }
+  main ul li {
+    text-indent: -12px; }
+
+main ol li, main ul li {
+  margin: 0 0 6px; }
+
+.box-grid {
+  display: flex; }
+  .box-grid .box {
+    margin-right: 48px; }
+
+.box {
+  border-radius: 4px;
+  max-width: 840px;
+  margin-bottom: 18px;
+  padding: 96px; }
+  .box .caption {
+    color: #808080;
+    font-size: 14px;
+    text-align: center; }
+  .box img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; }
+  .box.w-border {
+    border: 1px solid #efefef; }
+  .box.show-gradient-line {
+    border: none; }
+    .box.show-gradient-line .caption {
+      color: #fff;
+      position: absolute; }
+      .box.show-gradient-line .caption:first-child {
+        bottom: 12px;
+        left: 12px; }
+      .box.show-gradient-line .caption:last-child {
+        top: 12px;
+        right: 12px; }
+    .box.show-gradient-line:before {
+      border-bottom: 1px solid #fff;
+      color: #fff;
+      content: '45 deg';
+      display: block;
+      font-size: 12px;
+      transform: rotate(-45deg);
+      padding-bottom: 4px;
+      text-align: center;
+      top: -8px;
+      margin: 0 auto;
+      width: 255px; }
+  .box.medium {
+    max-width: 380px; }
+  .box.small {
+    padding: 48px;
+    max-width: 260px; }
+  .box.min-width img {
+    border: 1px dashed #808080;
+    border-bottom: none;
+    margin-top: 6px;
+    padding-top: 12px; }
+  .box.free-space {
+    background: #efefef;
+    padding: 0; }
+    .box.free-space img {
+      background: #fff; }
+    .box.free-space .space {
+      border: 1px dashed #808080;
+      position: absolute; }
+  .box span.status {
+    padding: 6px;
+    position: absolute;
+    font-size: 42px;
+    right: 0;
+    top: 0; }
+    .box span.status.ok {
+      color: #56b756; }
+    .box span.status.bad {
+      color: #d61111; }
+
+.bg-blue,
+.bg-blue-alt,
+.bg-orange,
+.bg-grey,
+.bg-black,
+.bg-gradient {
+  color: #fff; }
+
+.bg-white,
+.bg-grey-light {
+  color: #000; }
+
+.bg-blue {
+  background: #466dd8; }
+
+.bg-blue-alt {
+  background: #2295ff; }
+
+.bg-orange {
+  background: #f8954f; }
+
+.bg-grey {
+  background: #808080; }
+
+.bg-black {
+  background: #000; }
+
+.bg-grey-light {
+  background: #fafafa; }
+
+.bg-white {
+  background: #fff; }
+
+.bg-gradient {
+  background: #466dd8;
+  background: linear-gradient(45deg, #2295ff, #466dd8); }
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content auto min-content; }
+  @media (max-width: 700px) {
+    body {
+      grid-template-columns: 40px 1fr; } }
+
+/* grid-area: row-start / column-start / row-end / column end */
+.sidebar-nav {
+  grid-area: 2 / 1 / 3 / 2;
+  padding: 0 0 2rem 0; }
+
+main {
+  grid-area: 2 / 2 / 3 / 3;
+  padding: 12px 48px 96px; }
+
+.site-header {
+  grid-area: 1 / 1 / 2 / 3;
+  align-self: center; }
+
+.site-footer {
+  grid-area: 3 / 1 / 4 / 3;
+  padding: 96px 48px 48px; }
+
+img {
+  max-width: 100%; }
+
+.color-grid {
+  display: flex;
+  margin: 48px 0; }
+  .color-grid.smaller .color {
+    height: 192px;
+    padding: 12px;
+    width: 192px; }
+  .color-grid .color {
+    border-radius: 50%;
+    border: 1px solid #efefef;
+    box-shadow: inset 0 0 0 3px #fff;
+    font-size: 12px;
+    height: 288px;
+    text-align: center;
+    padding: 24px;
+    margin-right: 48px;
+    width: 288px; }
+    .color-grid .color ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%); }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  position: relative;
+  box-sizing: inherit; }
+
+body {
+  background: white;
+  color: #323339; }
+
+.site-header {
+  background: #466dd8;
+  background: linear-gradient(45deg, #2295ff, #466dd8);
+  color: #fff;
+  padding: 70px;
+  text-align: center; }
+  .site-header img {
+    margin: 0 auto;
+    margin: 0 70px 22.5px;
+    max-height: 140px; }
+  .site-header h1 {
+    font-size: 52px; }
+  .site-header p {
+    font-size: 22px;
+    max-width: 580px;
+    margin: 0 auto; }
+  @media (max-width: 700px) {
+    .site-header h1 {
+      font-size: 38px; } }
+
+main section {
+  padding-bottom: 192px; }
+  main section h2 {
+    padding-top: 18px;
+    margin-bottom: 48px; }
+    main section h2:before {
+      background: #466dd8;
+      content: '';
+      display: block;
+      height: 6px;
+      top: -12px;
+      width: 96px; }
+    main section h2:hover a {
+      opacity: 0.6; }
+    main section h2 a {
+      border-bottom: none;
+      opacity: 0;
+      font-weight: 400; }
+      main section h2 a:hover {
+        border-bottom: none;
+        opacity: 1; }
+  main section h3 {
+    margin-top: 36px; }
+  main section h4 {
+    margin-top: 24px; }
+
+.sidebar-nav {
+  background: #efefef;
+  z-index: 1; }
+  .sidebar-nav h4 {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 12px 96px 8px 12px;
+    margin: 12px 0 6px; }
+  .sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .sidebar-nav ul li a {
+      color: #466dd8;
+      display: block;
+      font-size: 16px;
+      border-left: 4px solid transparent;
+      padding: 6px 12px 6px; }
+      .sidebar-nav ul li a:focus, .sidebar-nav ul li a:hover, .sidebar-nav ul li a.current {
+        background: rgba(0, 0, 0, 0.05); }
+      .sidebar-nav ul li a.current {
+        border-left-color: #466dd8; }
+  .sidebar-nav .sticky-inside {
+    position: sticky;
+    top: 0; }
+  .sidebar-nav .just-nav {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px); }
+  @media (max-width: 700px) {
+    .sidebar-nav .just-nav {
+      position: fixed;
+      top: 0;
+      height: 100vh;
+      display: block;
+      padding-top: 1.25rem;
+      transition: 0.2s;
+      transform: translateX(-210px);
+      background: rgba(0, 0, 0, 0.9); }
+    body.sidebar-is-open .sidebar-nav .just-nav {
+      transform: translateX(0); } }
+
+#hamburger {
+  background: none;
+  border: 0;
+  color: white;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 150%;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2; }
+  @media (max-width: 700px) {
+    #hamburger {
+      display: block; } }
+
+.site-footer {
+  border-top: 2px solid #fff;
+  background: #efefef; }

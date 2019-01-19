@@ -1,0 +1,38 @@
+
+.color-grid {
+
+	display: flex;
+	margin: 48px 0;
+
+	&.smaller .color {
+		height: 192px;
+		padding: 12px;
+		width: 192px;
+	}
+
+	.color {
+
+		border-radius: 50%;
+		border: 1px solid $color-element-border;
+		box-shadow: inset 0 0 0 3px $color-white;
+		font-size: 12px;
+		height: 288px;
+		text-align: center;
+		padding: 24px;
+		margin-right: 48px;
+		width: 288px;
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 100%;
+			transform: translate( -50%, -50% );
+		}
+
+	}
+
+}
