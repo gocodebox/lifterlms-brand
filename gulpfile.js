@@ -15,7 +15,7 @@ gulp.task( 'build:sass', function() {
 			includePaths: [ 'node_modules' ],
 			// outputStyle: 'compressed',
 		} ).on( 'error', sass.logError ) )
-		.pipe( gulp.dest( './gh-pages/assets/css/' ) );
+		.pipe( gulp.dest( './docs/assets/css/' ) );
 
 } );
 
@@ -26,13 +26,13 @@ gulp.task( 'build:html', function() {
 	    	return JSON.parse( fs.readFileSync( './src/manifest.json' ) );
 	    } ) )
 		.pipe( nunjucks.compile() )
-		.pipe( gulp.dest( './gh-pages' ) );
+		.pipe( gulp.dest( './docs' ) );
 
 } );
 
 gulp.task( 'build:favicons', function() {
 
-    return gulp.src( './gh-pages/assets/img/lifterlms_icon.png' )
+    return gulp.src( './docs/assets/img/lifterlms_icon.png' )
     	.pipe( favicons( {
 			appName: 'LifterLMS Brand and Style Guide',
 			appShortName: 'LLMS',
@@ -44,7 +44,7 @@ gulp.task( 'build:favicons', function() {
 			pipeHTML: true,
 			replace: true
     	} ) )
-    	.pipe( gulp.dest( './gh-pages/assets/favicons' ) );
+    	.pipe( gulp.dest( './docs/assets/favicons' ) );
 
 } );
 
