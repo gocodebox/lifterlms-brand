@@ -1,0 +1,158 @@
+{% set groups = [
+	{
+		title: 'LifterLMS Logo',
+		items: [
+			{
+				title: 'Color',
+				alt: 'LifterLMS Logo',
+				bg: 'bg-transparent',
+				size: 'medium',
+				src: 'lifterlms_logo'
+			},
+			{
+				title: 'White on Gradient',
+				alt: 'LifterLMS Logo (on gradient)',
+				bg: 'bg-gradient',
+				size: 'medium',
+				src: 'lifterlms_logo-white'
+			}
+		]
+	},
+	{
+		items: [
+			{
+				title: 'Color on Grey',
+				alt: 'LifterLMS Logo (on Grey)',
+				bg: 'bg-grey-light',
+				size: 'small',
+				src: 'lifterlms_logo-on-grey'
+			},
+			{
+				title: 'Color on White',
+				alt: 'LifterLMS Logo (on White)',
+				bg: '',
+				size: 'small',
+				src: 'lifterlms_logo-on-white'
+			},
+			{
+				title: 'White on Blue',
+				alt: 'LifterLMS Logo (on Blue)',
+				bg: 'bg-blue',
+				size: 'small',
+				src: 'lifterlms_logo-white-on-blue'
+			},
+			{
+				title: 'White',
+				alt: 'LifterLMS Logo (White)',
+				bg: 'bg-transparent-dark',
+				size: 'small',
+				src: 'lifterlms_logo-white'
+			},
+			{
+				title: 'Black',
+				alt: 'LifterLMS Logo (Black)',
+				bg: 'bg-transparent',
+				size: 'small',
+				src: 'lifterlms_logo-black'
+			},
+			{
+				title: 'Grey',
+				alt: 'LifterLMS Logo (Grey)',
+				bg: 'bg-transparent',
+				size: 'small',
+				src: 'lifterlms_logo-grey'
+			}
+
+		]
+	},
+	{
+		title: 'LifterLMS Icon',
+		items: [
+			{
+				title: 'Color',
+				alt: 'LifterLMS Icon',
+				bg: 'bg-transparent',
+				size: 'medium',
+				src: 'lifterlms_icon-square'
+			},
+			{
+				title: 'White on Gradient',
+				alt: 'LifterLMS Icon (on gradient)',
+				bg: 'bg-gradient',
+				size: 'medium',
+				src: 'lifterlms_icon-square-white'
+			}
+		]
+	},
+	{
+		items: [
+			{
+				title: 'Color on Grey',
+				alt: 'LifterLMS Icon (on Grey)',
+				bg: 'bg-grey-light',
+				size: 'small',
+				src: 'lifterlms_icon-square-on-grey'
+			},
+			{
+				title: 'Color on White',
+				alt: 'LifterLMS Icon (on White)',
+				bg: '',
+				size: 'small',
+				src: 'lifterlms_icon-square-on-white'
+			},
+			{
+				title: 'White on Blue',
+				alt: 'LifterLMS Icon (on Blue)',
+				bg: 'bg-blue',
+				size: 'small',
+				src: 'lifterlms_icon-square-white-on-blue'
+			},
+			{
+				title: 'White',
+				alt: 'LifterLMS Icon (White)',
+				bg: 'bg-transparent-dark',
+				size: 'small',
+				src: 'lifterlms_icon-square-white'
+			},
+			{
+				title: 'Black',
+				alt: 'LifterLMS Icon (Black)',
+				bg: 'bg-transparent',
+				size: 'small',
+				src: 'lifterlms_icon-square-black'
+			},
+			{
+				title: 'Grey',
+				alt: 'LifterLMS Icon (Grey)',
+				bg: 'bg-transparent',
+				size: 'small',
+				src: 'lifterlms_icon-square-grey'
+			}
+
+		]
+	}
+] %}
+
+{% for group in groups %}
+
+	{% if group.title %}
+		<h3>{{ group.title }}</h3>
+	{% endif %}
+
+	<div class="box-grid downloads">
+
+		{% for item in group.items %}
+			<div class="box none">
+				<h5>{{ item.title }}</h5>
+				<div class="box {{ item.bg }} w-border {{ item.size }}">
+					<img src="assets/img/{{ item.src }}.png" alt="{{ item.alt }}">
+				</div>
+				<span class="caption">Download: <a href="assets/img/{{ item.src }}.png">PNG</a> | <a href="assets/img/{{ item.src }}.svg">SVG</a></span>
+			</div>
+		{% endfor %}
+
+	</div>
+{% endfor %}
+
+<br><br>
+<a class="button" href="assets/downloads/lifterlms-brand-assets.zip">Download All Assets</a>

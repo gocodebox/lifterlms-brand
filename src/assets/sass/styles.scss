@@ -1,11 +1,19 @@
-@import 'fonts';
+// @import 'fonts';
 @import 'colors';
 @import 'normalize.css/normalize';
 
-$font-family-body: 'Nexa', sans-serif;
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	position: relative;
+	box-sizing: inherit;
+}
+
+$font-family-body: 'Montserrat', sans-serif;
 $font-family-mono: monospace;
 
-$small-screen: (max-width: 700px);
+$small-screen: (max-width: 800px);
 
 @mixin gradient() {
 	background: $color-blue;
@@ -17,27 +25,18 @@ $small-screen: (max-width: 700px);
 @import 'layout';
 @import 'color-grid';
 
-html {
-	box-sizing: border-box;
-}
-*, *:before, *:after {
-	position: relative;
-	box-sizing: inherit;
-}
-
 body {
 	background: white;
 	color: #323339;
 }
 
-.site-header {
+header {
 	@include gradient();
 	color: $color-white;
 	padding: 70px;
 	text-align: center;
 	img {
-		margin: 0 auto;
-		margin: 0 70px 22.5px;
+		margin: 0 auto 22.5px;
 		max-height: 140px;
 	}
 	h1 {
@@ -60,7 +59,7 @@ main {
 
 	section {
 		padding-bottom: 192px;
-		h2 {
+		> h2 {
 			padding-top: 18px;
 			margin-bottom: 48px;
 			&:before {
@@ -77,7 +76,7 @@ main {
 			a {
 				border-bottom: none;
 				opacity: 0;
-				font-weight: 400;
+				// font-weight: 400;
 				&:hover {
 					border-bottom: none;
 					opacity: 1;
@@ -96,7 +95,6 @@ main {
 
 
 .sidebar-nav {
-	background: $color-element-bg;
 	z-index: 1;
 	h4 {
 		background: rgba( 0, 0, 0, 0.1 );
@@ -130,10 +128,11 @@ main {
 		top: 0;
 	}
 	.just-nav {
+		background: $color-element-bg;
 		white-space: nowrap;
 		display: flex;
 		flex-direction: column;
-		height: calc(100vh - 60px);
+		height: 100vh;
 	}
 	@media #{$small-screen} {
 		.just-nav {
@@ -141,10 +140,10 @@ main {
 			top: 0;
 			height: 100vh;
 			display: block;
-			padding-top: 1.25rem;
+			padding-top: 2rem;
 			transition: 0.2s;
-			transform: translateX(-210px);
-			background: rgba(black, 0.9);
+			transform: translateX( -100% );
+			width: 100%;
 		}
 		body.sidebar-is-open & {
 			.just-nav {
@@ -154,11 +153,9 @@ main {
 	}
 }
 
-
 #hamburger {
 	background: none;
 	border: 0;
-	color: white;
 	margin: 0 auto;
 	padding: 0.5rem;
 	font-size: 150%;

@@ -7,6 +7,7 @@
 
 	{% include '_favicons.html' %}
 
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,600,600i" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -20,37 +21,41 @@
 		<p>Whether your an affiliate, a developer, or an enthusiast, we aim to make it easy for you to integrate the LifterLMS brand into your project.</p>
 	</header>
 
-	<nav id="sidebar-nav" class="sidebar-nav">
+	<section class="site-main">
 
-		<div class="sticky-inside">
+		<nav id="sidebar-nav" class="sidebar-nav">
 
-			<div class="just-nav">
-				{% for group in groups %}
-				<h4>{{ group.title }}</h4>
-				<ul>
-					{% for section in group.sections %}
-					<li><a href="#{{ section.id }}">{{ section.title }}</a></li>
+			<div class="sticky-inside">
+
+				<div class="just-nav">
+					{% for group in groups %}
+					<h4>{{ group.title }}</h4>
+					<ul>
+						{% for section in group.sections %}
+						<li><a href="#{{ section.id }}">{{ section.title }}</a></li>
+						{% endfor %}
+					</ul>
 					{% endfor %}
-				</ul>
-				{% endfor %}
+				</div>
+
 			</div>
 
-		</div>
+		</nav>
 
-	</nav>
+		<main>
 
-	<main>
-
-		{% for group in groups %}
-			{% for section in group.sections %}
-			<section>
-				<h2 id="{{ section.id }}">{{ section.title }} <a href="#{{ section.id }}">#</a></h2>
-				{% include 'sections/' + section.html %}
-			</section>
+			{% for group in groups %}
+				{% for section in group.sections %}
+				<section>
+					<h2 id="{{ section.id }}">{{ section.title }} <a href="#{{ section.id }}">#</a></h2>
+					{% include 'sections/' + section.html %}
+				</section>
+				{% endfor %}
 			{% endfor %}
-		{% endfor %}
 
-	</main>
+		</main>
+
+	</section>
 
 	<footer class="site-footer">
 		&copy;2014-2019 LifterLMS

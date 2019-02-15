@@ -2,7 +2,7 @@ body {
 	font-family: $font-family-body;
 	font-size: 133%;
 	line-height: 1.4;
-	font-weight: 200;
+	font-weight: 300;
 	@media #{$small-screen} {
 		font-size: 120%;
 	}
@@ -14,15 +14,27 @@ a, a:visited {
 	transition: all 0.2s ease;
 }
 
-
 main a,
 main a:visited {
 	border-bottom: 1px solid $color-blue;
-	font-weight: 300;
 	&:hover {
 		border-bottom: 2px solid $color-blue;
 	}
+
+	&.button {
+		background: $color-blue;
+		border-bottom: none;
+		border-radius: 4px;
+		color: $color-white;
+		padding: 24px 24px 18px;
+		line-height: 0.8;
+		&:hover {
+			background: darken( $color-blue, 8 );
+		}
+	}
 }
+
+
 
 strong, b,
 h1, h2, h3, h4, h5, h6 {
@@ -54,24 +66,6 @@ h6 {
 }
 
 
-
-
-
-
-// code {
-// 	font-family: $font-family-mono;
-// }
-
-// p > code,
-// li > code {
-// 	// interesting:
-// 	// https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust
-// 	font-size: 75%;
-// 	background: #eee;
-// 	padding: 0 2px;
-// 	border-radius: 2px;
-// }
-
 main {
 	p,
 	pre,
@@ -81,17 +75,13 @@ main {
 	}
 	p,
 	li {
+		font-size: 20px;
 		max-width: 720px;
 	}
 	ul {
-		// list-style: none;
 		padding: 0 0 0 18px;
 		li {
 			text-indent: -12px;
-			// &::before {
-			// 	content: "▪ ";
-			// 	color: $primary;
-			// }
 		}
 	}
 	ol, ul {
@@ -99,7 +89,7 @@ main {
 			margin: 0 0 6px;
 		}
 	}
+	small {
+		font-size: 80%;
+	}
 }
-
-
-

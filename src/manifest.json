@@ -28,6 +28,22 @@
           "id": "backgrounds",
           "title": "Backgrounds",
           "html": "logo/backgrounds.html"
+        },
+        {
+          "id": "downloads",
+          "title": "Downloads",
+          "html": "logo/Downloads.html"
+        }
+      ]
+    },
+    {
+      "id": "name",
+      "title": "Our Name",
+      "sections": [
+        {
+          "id": "name",
+          "title": "Name",
+          "html": "name/name.html"
         }
       ]
     },
@@ -44,11 +60,6 @@
           "id": "gradient",
           "title": "Gradient",
           "html": "colors/gradient.html"
-        },
-        {
-          "id": "rules",
-          "title": "Rules",
-          "html": "colors/rules.html"
         }
       ]
     },
@@ -57,19 +68,19 @@
       "title": "Our Typography",
       "sections": [
         {
-          "id": "typography",
-          "title": "Typography",
-          "html": "typography/typography.html"
+          "id": "typeface",
+          "title": "Typeface",
+          "html": "typography/typeface.html"
         },
         {
-          "id": "examples",
-          "title": "Examlpes",
-          "html": "typography/examples.html"
+          "id": "type-sizing",
+          "title": "Sizing",
+          "html": "typography/sizing.html"
         },
         {
-          "id": "substitutions",
-          "title": "Substitutions",
-          "html": "typography/substitutions.html"
+          "id": "weight",
+          "title": "Weight",
+          "html": "typography/weight.html"
         }
       ]
     }

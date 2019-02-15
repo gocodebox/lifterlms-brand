@@ -1,7 +1,6 @@
 
 .color-grid {
 
-	display: flex;
 	margin: 48px 0;
 
 	&.smaller .color {
@@ -12,10 +11,11 @@
 
 	.color {
 
+		display: inline-block;
+
 		border-radius: 50%;
 		border: 1px solid $color-element-border;
 		box-shadow: inset 0 0 0 3px $color-white;
-		font-size: 12px;
 		height: 288px;
 		text-align: center;
 		padding: 24px;
@@ -31,6 +31,9 @@
 			left: 50%;
 			width: 100%;
 			transform: translate( -50%, -50% );
+			li {
+				font-size: 12px;
+			}
 		}
 
 	}
