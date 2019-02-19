@@ -7,14 +7,14 @@
 				alt: 'LifterLMS Logo',
 				bg: 'bg-transparent',
 				size: 'medium',
-				src: 'lifterlms_logo'
+				src: 'logo/lifterlms-logo'
 			},
 			{
 				title: 'White on Gradient',
 				alt: 'LifterLMS Logo (on gradient)',
 				bg: 'bg-gradient',
 				size: 'medium',
-				src: 'lifterlms_logo-white'
+				src: 'logo/lifterlms-logo-white'
 			}
 		]
 	},
@@ -25,42 +25,42 @@
 				alt: 'LifterLMS Logo (on Grey)',
 				bg: 'bg-grey-light',
 				size: 'small',
-				src: 'lifterlms_logo-on-grey'
+				src: 'logo/lifterlms-logo-bg-grey'
 			},
 			{
 				title: 'Color on White',
 				alt: 'LifterLMS Logo (on White)',
 				bg: '',
 				size: 'small',
-				src: 'lifterlms_logo-on-white'
+				src: 'logo/lifterlms-logo-bg-white'
 			},
 			{
 				title: 'White on Blue',
 				alt: 'LifterLMS Logo (on Blue)',
 				bg: 'bg-blue',
 				size: 'small',
-				src: 'lifterlms_logo-white-on-blue'
+				src: 'logo/lifterlms-logo-white-bg-blue'
 			},
 			{
 				title: 'White',
 				alt: 'LifterLMS Logo (White)',
 				bg: 'bg-transparent-dark',
 				size: 'small',
-				src: 'lifterlms_logo-white'
+				src: 'logo/lifterlms-logo-white'
 			},
 			{
 				title: 'Black',
 				alt: 'LifterLMS Logo (Black)',
 				bg: 'bg-transparent',
 				size: 'small',
-				src: 'lifterlms_logo-black'
+				src: 'logo/lifterlms-logo-black'
 			},
 			{
 				title: 'Grey',
 				alt: 'LifterLMS Logo (Grey)',
 				bg: 'bg-transparent',
 				size: 'small',
-				src: 'lifterlms_logo-grey'
+				src: 'logo/lifterlms-logo-grey'
 			}
 
 		]
@@ -73,14 +73,14 @@
 				alt: 'LifterLMS Icon',
 				bg: 'bg-transparent',
 				size: 'medium',
-				src: 'lifterlms_icon-square'
+				src: 'icon-square/lifterlms-icon-square'
 			},
 			{
 				title: 'White on Gradient',
 				alt: 'LifterLMS Icon (on gradient)',
 				bg: 'bg-gradient',
 				size: 'medium',
-				src: 'lifterlms_icon-square-white'
+				src: 'icon-square/lifterlms-icon-white-square'
 			}
 		]
 	},
@@ -91,42 +91,42 @@
 				alt: 'LifterLMS Icon (on Grey)',
 				bg: 'bg-grey-light',
 				size: 'small',
-				src: 'lifterlms_icon-square-on-grey'
+				src: 'icon-square/lifterlms-icon-square-bg-grey'
 			},
 			{
 				title: 'Color on White',
 				alt: 'LifterLMS Icon (on White)',
 				bg: '',
 				size: 'small',
-				src: 'lifterlms_icon-square-on-white'
+				src: 'icon-square/lifterlms-icon-square-bg-white'
 			},
 			{
 				title: 'White on Blue',
 				alt: 'LifterLMS Icon (on Blue)',
 				bg: 'bg-blue',
 				size: 'small',
-				src: 'lifterlms_icon-square-white-on-blue'
+				src: 'icon-square/lifterlms-icon-white-square-bg-blue'
 			},
 			{
 				title: 'White',
 				alt: 'LifterLMS Icon (White)',
 				bg: 'bg-transparent-dark',
 				size: 'small',
-				src: 'lifterlms_icon-square-white'
+				src: 'icon-square/lifterlms-icon-white-square'
 			},
 			{
 				title: 'Black',
 				alt: 'LifterLMS Icon (Black)',
 				bg: 'bg-transparent',
 				size: 'small',
-				src: 'lifterlms_icon-square-black'
+				src: 'icon-square/lifterlms-icon-black-square'
 			},
 			{
 				title: 'Grey',
 				alt: 'LifterLMS Icon (Grey)',
 				bg: 'bg-transparent',
 				size: 'small',
-				src: 'lifterlms_icon-square-grey'
+				src: 'icon-square/lifterlms-icon-grey-square'
 			}
 
 		]
@@ -145,9 +145,14 @@
 			<div class="box none">
 				<h5>{{ item.title }}</h5>
 				<div class="box {{ item.bg }} w-border {{ item.size }}">
-					<img src="assets/img/{{ item.src }}.png" alt="{{ item.alt }}">
+					<img src="assets/img/png/{{ item.src }}.png" alt="{{ item.alt }}">
 				</div>
-				<span class="caption">Download: <a href="assets/img/{{ item.src }}.png">PNG</a> | <a href="assets/img/{{ item.src }}.svg">SVG</a></span>
+				<span class="caption">
+					Download:
+					<a href="assets/img/png/{{ item.src }}.png" download>PNG</a>
+					|
+					<a href="assets/img/svg/{{ item.src }}.svg" download>SVG</a>
+				</span>
 			</div>
 		{% endfor %}
 
