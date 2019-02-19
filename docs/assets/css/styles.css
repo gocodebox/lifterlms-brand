@@ -409,9 +409,11 @@ img {
   .caption.large {
     font-size: 18px; }
 
-.box-grid .box {
-  display: inline-block;
-  margin-right: 48px; }
+.box-grid {
+  max-width: 960px; }
+  .box-grid .box {
+    display: inline-block;
+    margin-right: 48px; }
 
 .box {
   border-radius: 4px;
@@ -558,6 +560,9 @@ img {
     .typography.weight .caption {
       font-weight: 300 !important;
       font-style: normal; }
+
+.stylizations .box {
+  width: 260px; }
 
 body {
   display: flex;

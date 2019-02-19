@@ -13,6 +13,7 @@ img {
 }
 
 .box-grid {
+	max-width: 960px;
 	.box {
 		display: inline-block;
 		margin-right: 48px;
@@ -199,4 +200,11 @@ img {
 		}
 	}
 
+}
+
+
+.stylizations {
+	.box {
+		width: 260px;
+	}
 }
