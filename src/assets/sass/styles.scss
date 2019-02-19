@@ -1,4 +1,3 @@
-// @import 'fonts';
 @import 'colors';
 @import 'normalize.css/normalize';
 
@@ -170,6 +169,6 @@ main {
 }
 
 .site-footer {
+	background: $color-blue;
 	border-top: 2px solid $color-white;
-	background: $color-element-bg;
 }

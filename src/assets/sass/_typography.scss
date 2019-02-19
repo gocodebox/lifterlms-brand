@@ -34,7 +34,17 @@ main a:visited {
 	}
 }
 
-
+.site-footer {
+	color: $color-white;
+	font-size: 70%;
+	a, a:visited {
+		color: $color-white;
+		border-bottom: 1px solid rgba( $color-white, 0.5 );
+		&:hover {
+			border-bottom: 2px solid $color-white;
+		}
+	}
+}
 
 strong, b,
 h1, h2, h3, h4, h5, h6 {

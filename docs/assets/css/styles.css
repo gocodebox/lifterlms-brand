@@ -342,6 +342,15 @@ main a:visited {
     main a:visited.button:hover {
       background: #2b55cb; }
 
+.site-footer {
+  color: #fff;
+  font-size: 70%; }
+  .site-footer a, .site-footer a:visited {
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+    .site-footer a:hover, .site-footer a:visited:hover {
+      border-bottom: 2px solid #fff; }
+
 strong, b,
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
@@ -708,5 +717,5 @@ main section {
       display: block; } }
 
 .site-footer {
-  border-top: 2px solid #fff;
-  background: #efefef; }
+  background: #466dd8;
+  border-top: 2px solid #fff; }
